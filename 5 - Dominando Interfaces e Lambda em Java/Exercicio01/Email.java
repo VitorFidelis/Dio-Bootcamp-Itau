@@ -1,9 +1,8 @@
-public record Email() implements NotificationService {
+public class Email implements NotificationService {
 
     @Override
-    public void send(String message) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'send'");
+    public void send(MarketingContex marketingContex) {
+        System.out.println("EMAIL: Mensagem enviada com sucesso. 📨");
     }
 
 }

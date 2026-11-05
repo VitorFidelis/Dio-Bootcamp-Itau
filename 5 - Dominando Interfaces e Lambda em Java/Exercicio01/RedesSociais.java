@@ -1,9 +1,7 @@
-public record RedesSociais() implements NotificationService {
+public class RedesSociais implements NotificationService {
 
     @Override
-    public void send(String message) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'send'");
+    public void send(MarketingContex marketingContex) {
+        System.out.println("REDES SOCIAIS: Mensagem enviada com sucesso. 🌐");
     }
-
 }

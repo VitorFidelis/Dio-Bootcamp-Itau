@@ -1,9 +1,8 @@
-public record Sms() implements NotificationService {
+public class Sms implements NotificationService {
 
     @Override
-    public void send(String message) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'send'");
+    public void send(MarketingContex marketingContex) {
+        System.out.println("SMS: Mensagem enviada com sucesso. 📲");
     }
 
 }

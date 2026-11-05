@@ -1,4 +1,4 @@
 public interface NotificationService {
 
-    void send(String message);
+    void send(MarketingContex marketingContex);
 }
